@@ -29,3 +29,7 @@ app.post("/payment-notification", async (req, res) => {
 
     return JSON.stringify(response)
 })
+
+app.listen(3000, () => {
+    console.log("Server started...")
+}
